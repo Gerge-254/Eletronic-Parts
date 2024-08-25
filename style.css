@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    border: solid red 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(249, 18, 18);
+}
+
+.tittle{
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.select{
+    display: flex;
+    gap: 7rem;
+    margin-right: 10%;
+}
+
+.select a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+
+}
+
+.select a:hover{
+    border-top: 4px solid white;
+    transition: 0.4s;
+}
+
+
+main{
+    display: block;
+    border: solid 2px black;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 280px;
+}
+
+.main_tittle{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.main_content{
+    text-align: center;
+}
+
+.main_btn{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_btn a{
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(249, 18, 18);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main_btn a:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    transition: 0.6s;
+}
+
+.tittle_produtos{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40rem;
+}
+
+.placaArduino{
+    border: solid black 2px;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+
+.jumpers{
+    border: solid black 2px;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.leds{
+    border: solid black 2px;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.placaArduino img{
+    height: 200px;
+}
+
+.jumpers img{
+    height: 200px;
+    
+}
+
+.leds img{
+    height: 200px;
+}
+
+/*ARDUINO */
+
+.valorArduino{
+    font-size: 20px;
+}
+
+#btncompraA{
+    margin-top: 30px;
+}
+
+.placaArduino a{
+    background-color: rgb(249, 18, 18);
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.placaArduino a:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    transition: 1s;
+    background-color: black;
+}
+
+/* JUMPERS */
+
+.valorJumpers{
+    font-size: 20px;
+}
+
+#btncompraJ{
+    margin-top: 30px;
+}
+
+.jumpers a{
+    background-color: rgb(249, 18, 18);
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.jumpers a:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    transition: 1s;
+    background-color: black;
+}
+
+/* LEDS */
+
+.valorLeds{
+    font-size: 20px;
+}
+
+#btncompraL{
+    margin-top: 30px;
+}
+
+.leds a{
+    background-color: rgb(249, 18, 18);
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.leds a:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    transition: 1s;
+    background-color: black;
+}
+
+
